@@ -1,0 +1,16 @@
+.PagItem {
+  font-size: 12px;
+  font-weight: normal;
+  color: #757F89;
+  border: 0;
+  background-color: #ffffff;
+  padding: 4px 6px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.Active {
+  background-color: #c4c4cc;
+  color: #000;
+  font-weight: bold;
+}

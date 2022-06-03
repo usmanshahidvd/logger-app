@@ -1,0 +1,14 @@
+.PagBtn {
+  font-size: 12px;
+  font-weight: bold;
+  color: #757F89;
+  border: 0;
+  background-color: #ffffff;
+  padding: 4px 6px;
+  cursor: pointer;
+}
+
+.Disable {
+  opacity: 0;
+  pointer-events: none;
+}

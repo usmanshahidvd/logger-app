@@ -1,0 +1,30 @@
+.CustomInput{
+  flex: 1;
+  min-width: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.CustomInput label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #62696F;
+}
+
+.CustomInput input, .CustomInput select {
+  background-color: #fff;
+  color: #62696F;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+}
+
+.CustomInput select option {
+  width: 100%;
+  color: #62696F;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+}

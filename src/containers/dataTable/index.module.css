@@ -1,0 +1,69 @@
+/* Table */
+
+.Table {
+  width: 100%;
+  height: 300px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  border-collapse: collapse;
+  margin-top: 30px;
+  overflow-y: scroll;
+}
+
+.Table thead, .Table tbody {
+  width: 100%;
+}
+
+.Table tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.Table th, .Table td {
+  color: #62696F;
+  font-size: 13px;
+  text-align: left;
+  padding: 12px 10px;
+}
+
+.Table th {
+  cursor: pointer;
+}
+
+.Table th img {
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+}
+
+
+/* Pagination */
+
+.Pagination {
+  flex: 1;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* Filters */
+
+.Filters {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.Filters button {
+  flex: 1;
+  padding: 12px;
+  min-width: 100px;
+  border: 0;
+  background-color: #10489B;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
